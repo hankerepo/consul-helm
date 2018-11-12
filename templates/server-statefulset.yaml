@@ -44,6 +44,7 @@ spec:
       terminationGracePeriodSeconds: 10
       securityContext:
         fsGroup: 1000
+        runAsUser: 1000
       volumes:
         - name: config
           configMap:
